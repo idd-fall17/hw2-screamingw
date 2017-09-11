@@ -51,7 +51,7 @@ public class Hw2TemplateApp extends SimplePicoPro {
 
 
         if(pin==GPIO_39 && value==LOW ) {
-            i=i++;
+            i=i+1;
             j=1;
             println("pin39");
         }
